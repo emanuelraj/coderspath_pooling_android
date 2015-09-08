@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/grey</item>
+        <item name="android:listViewStyle">@style/Widget.ListView</item>
+        <!-- tools:ignore="NewApi" to shut IDE up -->
+        <!-- on API 21 the overflow icon ignores colorControlNormal attr in favor of the native version -->
+        <item name="android:colorControlNormal" tools:ignore="NewApi">?colorControlNormal</item>
+        <item name="md_positive_color">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyPreferenceTheme" parent="MyMaterialTheme">
+        <item name="android:textColor">@color/preferenceTitleColor</item>
+    </style>
+
+    <style name="Widget" parent="android:Widget">
+    </style>
+
+    <style name="Widget.ListView">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:divider">@color/preferenceDividerColor</item>
+        <item name="android:dividerHeight">1dip</item>
+    </style>
+
+
+</resources>

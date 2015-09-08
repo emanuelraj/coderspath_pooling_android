@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pooling</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_connect">Socket not connected</string>
+    <string name="timout_eroor">Socket connection timeout</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="pooling">Pooling</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="please_enter_email_id">Please enter valid email id</string>
+    <string name="please_enter_password">Please enter valid Password</string>
+    <string name="title_activity_constacts">ConstactsActivity</string>
+    <string name="already_registered">User already registered</string>
+    <string name="registration_successful">Registration Successful</string>
+    <string name="sign_in_successful">SignIn Successful</string>
+    <string name="please_check_username_or_password">Please check username or password.</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login</string>
+
+</resources>
